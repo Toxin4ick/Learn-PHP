@@ -115,3 +115,26 @@ $closure = function($c) use($a, $b)
 
 $result = $closure(22); // 40
 echo $result;
+
+//Arrow functions
+//The same, just more succinctly
+$a = 8;
+$b = 10;
+
+$closure = fn($c) => $a + $b + $c;
+
+$result = $closure(22); // 40
+
+//Generator
+//This means that the yield statement works in much the same way as return, only after its execution, the function continues to work.
+function generateNumbers($start, $end)
+{
+    for($i = $start; $i < $end; $i++){
+        yield $i;
+    }
+}
+foreach(generateNumbers(4, 9) as $number)
+{
+    echo $number; // 45678
+}
+
