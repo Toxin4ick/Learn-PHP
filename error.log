@@ -17,3 +17,10 @@ pm_winnt:notice] [pid 8652:tid 560] AH00354: Child: Starting 64 worker threads.
 [Tue Jun 08 21:33:36.751937 2021] [core:notice] [pid 13436:tid 652] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
 [Tue Jun 08 21:33:36.760936 2021] [mpm_winnt:notice] [pid 13436:tid 652] AH00418: Parent: Created child process 15320
 [Tue Jun 08 21:33:37.179750 2021] [mpm_winnt:notice] [pid 15320:tid 588] AH00354: Child: Starting 64 worker threads.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Wed Jun 09 19:01:01.554978 2021] [mpm_winnt:notice] [pid 21428:tid 632] AH00455: Apache/2.4.48 (Win64) PHP/8.0.7 configured -- resuming normal operations
+[Wed Jun 09 19:01:01.554978 2021] [mpm_winnt:notice] [pid 21428:tid 632] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Wed Jun 09 19:01:01.554978 2021] [core:notice] [pid 21428:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Jun 09 19:01:01.564973 2021] [mpm_winnt:notice] [pid 21428:tid 632] AH00418: Parent: Created child process 20504
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Wed Jun 09 19:01:01.889242 2021] [mpm_winnt:notice] [pid 20504:tid 628] AH00354: Child: Starting 64 worker threads.
