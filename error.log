@@ -24,3 +24,6 @@ PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
 [Wed Jun 09 19:01:01.564973 2021] [mpm_winnt:notice] [pid 21428:tid 632] AH00418: Parent: Created child process 20504
 PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
 [Wed Jun 09 19:01:01.889242 2021] [mpm_winnt:notice] [pid 20504:tid 628] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 09 21:04:21.477329 2021] [php:error] [pid 20504:tid 1112] [client 167.71.13.196:35994] script 'D:/Learn-PHP/info.php' not found or unable to stat
+[Thu Jun 10 09:37:00.209410 2021] [core:error] [pid 20504:tid 1112] (OS 87)Параметр задан неверно.  : [client 178.62.199.239:57606] AH00127: Cannot map GET /3000D00E0000FFFF3F0031313744373731343634304537353046007A7A7A7A7A7A7A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000008047A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000 HTTP/1.1 to file
+[Thu Jun 10 14:34:56.430226 2021] [php:error] [pid 20504:tid 1064] [client 120.79.42.204:33468] script 'D:/Learn-PHP/elrekt.php' not found or unable to stat
