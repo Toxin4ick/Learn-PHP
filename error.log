@@ -27,3 +27,193 @@ PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
 [Wed Jun 09 21:04:21.477329 2021] [php:error] [pid 20504:tid 1112] [client 167.71.13.196:35994] script 'D:/Learn-PHP/info.php' not found or unable to stat
 [Thu Jun 10 09:37:00.209410 2021] [core:error] [pid 20504:tid 1112] (OS 87)Параметр задан неверно.  : [client 178.62.199.239:57606] AH00127: Cannot map GET /3000D00E0000FFFF3F0031313744373731343634304537353046007A7A7A7A7A7A7A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000008047A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000 HTTP/1.1 to file
 [Thu Jun 10 14:34:56.430226 2021] [php:error] [pid 20504:tid 1064] [client 120.79.42.204:33468] script 'D:/Learn-PHP/elrekt.php' not found or unable to stat
+[Fri Jun 11 06:42:57.860429 2021] [php:error] [pid 20504:tid 1080] [client 178.62.207.29:58484] script 'D:/Learn-PHP/system_api.php' not found or unable to stat
+[Fri Jun 11 06:42:58.178769 2021] [php:error] [pid 20504:tid 1080] [client 178.62.207.29:58708] script 'D:/Learn-PHP/system_api.php' not found or unable to stat
+[Fri Jun 11 07:50:00.649792 2021] [php:error] [pid 20504:tid 1096] [client 138.197.1.66:43454] script 'D:/Learn-PHP/system_api.php' not found or unable to stat
+[Fri Jun 11 15:05:10.192052 2021] [php:error] [pid 20504:tid 1096] [client 37.200.73.59:55324] script 'D:/Learn-PHP/main.php' not found or unable to stat, referer: http://46.37.128.126/
+[Fri Jun 11 19:41:16.009382 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:41:16.009382 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  file_get_contents(https://api.weather.yandex.ru/v1/forecast?lat=52.886894&amp;lon=40.509112&amp;limit=1&amp;hours=false&amp;extra=false): Failed to open stream: No such file or directory in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "obs_time" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "temp" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "humidity" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "wind_speed" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "pressure_mm" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:41:16.011366 2021] [php:warn] [pid 20504:tid 1084] [client ::1:61828] PHP Warning:  Attempt to read property "icon" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  file_get_contents(https://api.weather.yandex.ru/v2/forecast?lat=55.75396&amp;lon=37.620393&amp;extra=true): Failed to open stream: No such file or directory in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "obs_time" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "temp" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "humidity" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "wind_speed" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "pressure_mm" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:42:37.419202 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "icon" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  file_get_contents(https://api.weather.yandex.ru/v2/forecast?lat=55.75396&amp;lon=37.620393&amp;extra=true): Failed to open stream: No such file or directory in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "obs_time" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "temp" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "humidity" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "wind_speed" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "pressure_mm" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:42:38.663186 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "icon" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  file_get_contents(https://api.weather.yandex.ru/v2/forecast?lat=55.75396&amp;lon=37.620393&amp;extra=true): Failed to open stream: No such file or directory in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "obs_time" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "temp" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "humidity" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "wind_speed" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "pressure_mm" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:42:39.227199 2021] [php:warn] [pid 20504:tid 1084] [client ::1:54995] PHP Warning:  Attempt to read property "icon" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  file_get_contents(https://api.weather.yandex.ru/v2/forecast?lat=55.75396&amp;lon=37.620393&amp;extra=true): Failed to open stream: No such file or directory in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "obs_time" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "temp" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "humidity" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "wind_speed" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "pressure_mm" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:43:05.743599 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "icon" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  file_get_contents(https://api.weather.yandex.ru/v2/forecast?lat=55.75396&amp;lon=37.620393&amp;extra=true): Failed to open stream: No such file or directory in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "obs_time" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "temp" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "humidity" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "wind_speed" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "pressure_mm" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:43:06.435649 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "icon" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  file_get_contents(https://api.weather.yandex.ru/v2/forecast?lat=55.75396&amp;lon=37.620393&amp;extra=true): Failed to open stream: No such file or directory in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "obs_time" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "temp" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "humidity" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "wind_speed" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "pressure_mm" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:43:06.990972 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "icon" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  file_get_contents(https://api.weather.yandex.ru/v2/forecast?lat=55.75396&amp;lon=37.620393&amp;extra=true): Failed to open stream: No such file or directory in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "obs_time" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "temp" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "humidity" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "wind_speed" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "pressure_mm" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:43:07.463226 2021] [php:warn] [pid 20504:tid 1084] [client ::1:62485] PHP Warning:  Attempt to read property "icon" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 19:48:13.303371 2021] [mpm_winnt:notice] [pid 21428:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 11 19:48:15.319608 2021] [mpm_winnt:notice] [pid 20504:tid 628] AH00364: Child: All worker threads have exited.
+[Fri Jun 11 19:48:17.758066 2021] [mpm_winnt:notice] [pid 21428:tid 632] AH00430: Parent: Child process 20504 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Fri Jun 11 19:48:20.623359 2021] [mpm_winnt:notice] [pid 26116:tid 464] AH00455: Apache/2.4.48 (Win64) PHP/8.0.7 configured -- resuming normal operations
+[Fri Jun 11 19:48:20.623359 2021] [mpm_winnt:notice] [pid 26116:tid 464] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Fri Jun 11 19:48:20.623359 2021] [core:notice] [pid 26116:tid 464] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Jun 11 19:48:20.627357 2021] [mpm_winnt:notice] [pid 26116:tid 464] AH00418: Parent: Created child process 14624
+Apache server shutdown initiated...
+eady loaded in Unknown on line 0
+[Fri Jun 11 19:48:21.060189 2021] [mpm_winnt:notice] [pid 14624:tid 672] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 11 19:48:26.896032 2021] [mpm_winnt:notice] [pid 26116:tid 464] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 11 19:48:28.920090 2021] [mpm_winnt:notice] [pid 14624:tid 672] AH00364: Child: All worker threads have exited.
+[Fri Jun 11 19:48:28.970098 2021] [mpm_winnt:notice] [pid 26116:tid 464] AH00430: Parent: Child process 14624 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Fri Jun 11 19:48:30.645830 2021] [mpm_winnt:notice] [pid 12992:tid 552] AH00455: Apache/2.4.48 (Win64) PHP/8.0.7 configured -- resuming normal operations
+[Fri Jun 11 19:48:30.645830 2021] [mpm_winnt:notice] [pid 12992:tid 552] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Fri Jun 11 19:48:30.645830 2021] [core:notice] [pid 12992:tid 552] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Jun 11 19:48:30.647829 2021] [mpm_winnt:notice] [pid 12992:tid 552] AH00418: Parent: Created child process 25912
+Apache server shutdown initiated...
+eady loaded in Unknown on line 0
+[Fri Jun 11 19:48:31.011694 2021] [mpm_winnt:notice] [pid 25912:tid 592] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 11 19:48:42.203982 2021] [mpm_winnt:notice] [pid 12992:tid 552] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 11 19:48:44.216734 2021] [mpm_winnt:notice] [pid 25912:tid 592] AH00364: Child: All worker threads have exited.
+[Fri Jun 11 19:48:44.257726 2021] [mpm_winnt:notice] [pid 12992:tid 552] AH00430: Parent: Child process 25912 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Fri Jun 11 20:18:15.115328 2021] [ssl:warn] [pid 25788:tid 584] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Jun 11 20:18:15.116324 2021] [mpm_winnt:notice] [pid 25788:tid 584] AH00455: Apache/2.4.48 (Win64) PHP/8.0.7 OpenSSL/1.1.1k configured -- resuming normal operations
+[Fri Jun 11 20:18:15.116324 2021] [mpm_winnt:notice] [pid 25788:tid 584] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Fri Jun 11 20:18:15.116324 2021] [core:notice] [pid 25788:tid 584] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Jun 11 20:18:15.126309 2021] [mpm_winnt:notice] [pid 25788:tid 584] AH00418: Parent: Created child process 7680
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Fri Jun 11 20:18:15.448804 2021] [ssl:warn] [pid 7680:tid 584] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Jun 11 20:18:15.451803 2021] [mpm_winnt:notice] [pid 7680:tid 584] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  file_get_contents(https://api.weather.yandex.ru/v2/forecast?lat=55.75396&amp;lon=37.620393&amp;extra=true): Failed to open stream: No such file or directory in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "obs_time" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "temp" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "humidity" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "wind_speed" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "pressure_mm" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 20:18:52.402387 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "icon" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  file_get_contents(https://api.weather.yandex.ru/v2/forecast?lat=55.75396&amp;lon=37.620393&amp;extra=true): Failed to open stream: No such file or directory in D:\\Learn-PHP\\weather.php on line 22
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "obs_time" on null in D:\\Learn-PHP\\weather.php on line 25
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "temp" on null in D:\\Learn-PHP\\weather.php on line 26
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "humidity" on null in D:\\Learn-PHP\\weather.php on line 27
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "wind_speed" on null in D:\\Learn-PHP\\weather.php on line 28
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "pressure_mm" on null in D:\\Learn-PHP\\weather.php on line 29
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "fact" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 20:18:53.214880 2021] [php:warn] [pid 7680:tid 1144] [client ::1:58021] PHP Warning:  Attempt to read property "icon" on null in D:\\Learn-PHP\\weather.php on line 30
+[Fri Jun 11 20:21:14.016252 2021] [mpm_winnt:notice] [pid 25788:tid 584] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jun 11 20:21:16.035131 2021] [mpm_winnt:notice] [pid 7680:tid 584] AH00364: Child: All worker threads have exited.
+[Fri Jun 11 20:21:21.002735 2021] [mpm_winnt:notice] [pid 25788:tid 584] AH00430: Parent: Child process 7680 exited successfully.
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Fri Jun 11 20:21:22.361083 2021] [ssl:warn] [pid 18284:tid 640] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Jun 11 20:21:22.362082 2021] [mpm_winnt:notice] [pid 18284:tid 640] AH00455: Apache/2.4.48 (Win64) PHP/8.0.7 OpenSSL/1.1.1k configured -- resuming normal operations
+[Fri Jun 11 20:21:22.362082 2021] [mpm_winnt:notice] [pid 18284:tid 640] AH00456: Apache Lounge VS16 Server built: May 18 2021 10:45:56
+[Fri Jun 11 20:21:22.362082 2021] [core:notice] [pid 18284:tid 640] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Jun 11 20:21:22.371075 2021] [mpm_winnt:notice] [pid 18284:tid 640] AH00418: Parent: Created child process 328
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Fri Jun 11 20:21:22.809925 2021] [ssl:warn] [pid 328:tid 584] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Jun 11 20:21:22.812923 2021] [mpm_winnt:notice] [pid 328:tid 584] AH00354: Child: Starting 64 worker threads.

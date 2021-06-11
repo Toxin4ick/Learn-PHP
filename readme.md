@@ -109,16 +109,19 @@ AddType application/x-httpd-php-source .phps
     #
     TypesConfig conf/mime.types
 ~~~
-И в конце найдем блок IfModule dir_module
+И в конце найди блок IfModule dir_module
 ~~~
 <IfModule dir_module>
     DirectoryIndex index.html
 </IfModule>
 ~~~
-И заменим его на следующий:
+И замени его на следующий:
 ~~~
 <IfModule dir_module>
     DirectoryIndex index.html index.php
 </IfModule>
 ~~~
 Должно работать.
+
+#UPD
+ а ещё нужно выполнить всё по инструкции с этого сайта, чтобы можно было посмотреть на файл погоды: https://apache-windows.ru/apache-ssl-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4-apache-%D0%BD%D0%B0-https/
